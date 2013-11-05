@@ -1,0 +1,8 @@
+<p> test </p>
+
+<% @colleges.each do |c| %>
+  get from db <%= c.name %> <br>
+
+<% end %>
+
+<%= link_to '拿資料從 open data', :controller => 'colleges', :action => 'refreshOpenData' %>
