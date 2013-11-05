@@ -48,3 +48,4 @@ gem 'mechanize'
 # heroku 要的
 gem 'rails_12factor', group: :production
 
+gem 'iconv'
